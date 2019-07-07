@@ -1,0 +1,175 @@
+.app-box{
+    width: 7.5rem;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    background: linear-gradient(to right,#ff3333,#ff7a18);
+    line-height: 0.88rem;
+    text-align: center;
+    font-size: 0.36rem;
+    color: #fff;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.content{
+    width: 7.5rem;
+    height: 11.28rem;
+    margin-top: 0.76rem;
+    background-image: url(../img/wodebeijing.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.content-top{
+    width: 7.02rem;
+    height: 3.36rem;
+    margin: 0 0.24rem;
+    background-color: #fff;
+    position: absolute;
+    top: 2.14rem;
+    box-shadow: 0 0.08rem 0.5rem 0 rgba(255, 53, 51, 0.05);
+    border-radius: 0.1rem;
+}
+.touxiang{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -1.4rem;
+    left: 2.51rem;
+}
+.touxiang img{
+    width: 2rem;
+    height: 2rem;
+}
+.content-top-t1{
+    font-size: 0.24rem;
+    color: #ff5625;
+    line-height: 0.24rem;
+    float: right;
+    margin: 0.26rem 0.22rem 0 0;
+}
+.content-top-t2{
+    color: #ff482b;
+    font-size: 0.36rem;
+    line-height: 0.36rem;
+    float: left;
+    margin: 0.74rem 0 0 2.8rem;
+}
+.content-top-t3{
+    color: #ff482b;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    float: left;
+    margin: 0.16rem 0 0 2.45rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+.content-top-t4{
+    width: 6.6rem;
+    height: 1.34rem;
+    border-top: 0.01rem solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    right: 0.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-top-t44{
+    width: 20%;
+    height: 1rem;
+    /* background-color: #ff5625; */
+    text-align: center;
+    line-height: 0.5rem;
+}
+.content-top-t44 div{
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+.content-top-t4 i{
+    font-size: 0.5rem;
+    color:#ff5626;
+}
+.content-bottom{
+    width: 7.02rem;
+    padding: 0 0.24rem;
+    height: 5rem;
+    /* background-color: aqua; */
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.content-bottom-box{
+    width: 100%;
+    height: 1rem;
+    padding-left: 0.24rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    line-height: 1rem;
+}
+.content-bottom-box span:first-child{
+    font-size: 0.3rem;
+    color: rgba(0, 0, 0, 0.8);
+    float: left;
+}
+.content-bottom-box span:nth-child(3){
+    font-size: 0.2rem;
+    color: rgba(0, 0, 0, 0.8);
+    float: right;
+}
+.content-bottom-box i{
+    font-size: 0.4rem;
+    color: rgba(0, 0, 0, 0.4);
+    float: right;
+}
+.content-bottom-box1{
+    width: 100%;
+    height: 1rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    line-height: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.content-bottom-box1 span{
+    font-size: 0.24rem;
+    color: #ff5625;
+}
+footer{
+    width: 100%;
+    height: 0.97rem;
+    background-color: #fff;
+    border-top: solid 0.01rem #d8d8d8 ;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    position: fixed;
+    bottom: 0;
+    z-index: 200;
+}
+footer a{
+    display: block;
+    width: 20%;
+    height: 0.7rem;
+    text-align: center;
+}
+footer .iconfont{
+    font-size: 0.44rem;
+    color:rgba(0, 0, 0, 0.4);
+}
+footer div{
+    font-size: 0.18rem;
+    color:rgba(0, 0, 0, 0.4);
+}
+footer .wode{
+    color:#ff5626;
+}
+footer .icon-My{
+    color:#ff5626;
+}

@@ -1,0 +1,483 @@
+.app-box{
+    width: 7.5rem;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 0.88rem;
+    background: linear-gradient(to right,#ff3333,#ff7a18);
+    line-height: 0.88rem;
+    text-align: center;
+    font-size: 0.36rem;
+    color: #fff;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.content{
+    width: 100%;
+    background-color: #fefefe;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.address{
+    width: 100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    margin-top: 0.88rem;
+}
+.address span{
+    font-size: 0.34rem;
+    color: rgba(0,0,0,0.9);
+    /* padding: 0 0.14rem 0 0.16rem; */
+}
+.address .icon-Group-{
+    font-size: 0.48rem;
+    color: #ff5626;
+}
+.address .icon-you{
+    font-size: 0.14rem;
+    color: rgba(0,0,0,0.9)
+}
+.search{
+    width: 7rem;
+    height: 0.8rem;
+    box-shadow: 0 0 0.3rem 0 rgba(255, 93, 35, 0.13);
+    border-radius: 0.4rem;
+    padding: 0 0.34rem;
+    box-sizing: border-box;
+    position: relative;
+    /* line-height: 0.8rem; */
+}
+.search .icon-sousuo{
+    font-size: 0.44rem;
+    color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0.2rem;
+    left: 0.35rem;
+}
+.search .icon-cuowu{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0.28rem;
+    right: 1.2rem;
+}
+input{
+    width: 4.8rem;
+    height: 0.8rem;
+    border:none;
+    outline:none;
+    padding: 0;
+    margin-left: 0.7rem;
+}
+input::-webkit-input-placeholder{
+    color: rgba(0,0,0,0.3);
+    font-size: 0.3rem;
+}
+.search span{
+    color: rgba(0,0,0,0.3);
+    font-size: 0.3rem;
+}
+.search div{
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    font-size: 0.24rem;
+}
+.banner{
+    width: 100%;
+	height: 3.94rem;
+    border-radius: 10rem;
+    background-color: #ff3333;
+    margin-top: 0.32rem;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+	height: 3.94rem;
+}
+.banner-title1{
+    position: absolute;
+    bottom: 0.52rem;
+    left: 0.3rem;
+    font-size: 0.36rem;
+    color: #fff;
+    opacity: 0.9;
+}
+.banner-title2{
+    position: absolute;
+    bottom: 0.54rem;
+    right: 0.3rem;
+    font-size: 0.3rem;
+    color: #fff;
+    opacity: 0.9;
+}
+.banner-title2 span{
+    font-size: 0.6rem;
+    color: #fd0202;
+}
+.banner-dian{
+    position: absolute;
+    bottom: 0;
+    right: 2.9rem;
+    width: 50%;
+    height: 0.34rem;
+}
+.banner-dian li{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    margin-left: 0.16rem;
+    float: right;
+}
+.banner-dian div{
+    width: 0.36rem;
+    height: 0.1rem;
+    border-radius: 0.05rem;
+    background-color: #fff;
+    opacity: 0.5;
+    margin-left: 0.16rem;
+    float: right;
+}
+.youhui{
+    width: 100%;
+    height: 1.66rem;
+    border-radius: 0.2rem;
+    box-shadow: 0rem 4rem 32rem 0rem rgba(251, 91, 33, 0.57);
+    margin-top: 0.3rem;
+    background: linear-gradient(to right,#ff3333,#ff7818);
+    position: relative;
+}
+.youhui1{
+    position: absolute;
+    bottom: 0.74rem;
+    left: 0.3rem;
+    font-size: 0.48rem;
+    line-height: 0.48rem;
+    color: #ffffff;
+}
+.youhui1 span{
+    font-size: 0.72rem;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 0.72rem;
+}
+.youhui2{
+    position: absolute;
+    bottom: 0.3rem;
+    left: 0.3rem;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: rgba(255,255,255,0.9);
+}
+.youhui3{
+    position: absolute;
+    bottom: 0.3rem;
+    left: 2.2rem;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: rgba(255,255,255,0.9);
+}
+.youhui4{
+    width: 2.14rem;
+    height: 0.66rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.66rem;
+}
+.youhui4 img{
+    width: 2.14rem;
+    height: 0.66rem;
+}
+.youhui5{
+    position: absolute;
+    width: 1.38rem;
+    height: 1.38rem;
+    right: 0.26rem;
+    top: 0.16rem;
+    background: linear-gradient(58deg,#daa71e 0%, #fad46f 100%);
+    border-radius: 50%;
+}
+.youhui6{
+    position: absolute;
+    width: 1.18rem;
+    height: 1.18rem;
+    right: 0.36rem;
+    top: 0.25rem;
+    background-color: #dfad28;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.18rem;
+    font-size: 0.6rem;
+    color: #fff;
+    font-weight: bold;
+}
+.huodong{
+    width: 100%;
+    height: 2.95rem;
+    margin-top: 0.3rem;
+}
+.jifen{
+    width: 3.42rem;
+    height: 2.95rem;
+    float: left;
+    margin-right: 0.18rem;
+}
+.jifen1{
+    font-size: 0.36rem;
+    line-height: 0.36rem;
+    color: #ff5a24;
+    opacity: 0.9;
+    margin: 0.3rem 0 0.1rem 0.24rem;
+}
+.jifen2{
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #010101;
+    opacity: 0.7;
+    margin-left: 0.24rem;
+}
+.jifen3{
+    width: 2.38rem;
+    height: 1.28rem;
+    margin-top: 0.34rem;
+    margin-left: 0.4rem;
+}
+.jifen3 img{
+    width: 2.38rem;
+    height: 1.28rem;
+}
+.haodian{
+    width: 3.42rem;
+    height: 1.4rem;
+    float: left;
+    position: relative;
+}
+.haodian .haodian1{
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #010101;
+    opacity: 0.7;
+    margin: 0.8rem 0 0 0.28rem;
+}
+.haodian .haodian2{
+    width: 0.76rem;
+	height: 0.76rem;
+    background: linear-gradient(90deg, #ff3333 0%, #ff7918 100%);
+    border-radius: 50%;
+    position: absolute;
+    right: 0.26rem;
+    top: 0.32rem;
+    padding: 0.16rem,0.11rem;
+    box-sizing: border-box;
+}
+.haodian img{
+    position: absolute;
+    right: 0.36rem;
+    top: 0.48rem;
+    width: 0.54rem;
+    height: 0.44rem;
+}
+.haodian .jifen1{
+    margin: 0.36rem 0 0 0.26rem;
+}
+.haodian .jifen2{
+    margin: 0.1rem 0 0 0.26rem;
+}
+.shipin-top{
+    width: 100%;
+    height: 0.64rem;
+    margin-top: 0.46rem;
+    position: relative;
+    line-height: 0.64rem;
+}
+.shipin-top1{
+    width: 0.64rem;
+    height: 0.64rem;
+    border-radius: 50%;
+    background-color: #d81e06;
+    opacity: 0.9;
+    float: left;
+    margin-right: 0.14rem;
+}
+.shipin-top img{
+    position: absolute;
+    top: 0.18rem;
+    left: 0.14rem;
+    width: 0.38rem;
+    height: 0.3rem;
+}
+.shipin-top2{
+    font-size: 0.36rem;
+    color: #000000;
+    opacity: 0.8;
+    float: left;
+}
+.shipin-bottom{
+    width: 100%;
+    height: 2.3rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.06rem 0.24rem 0 rgba(255, 87, 38, 0.14);
+    margin-top: 0.22rem;
+    padding: 0.2rem 0 0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.shipin-bottom1{
+    width: 3.1rem;
+	height: 1.94rem;
+    border-radius: 0.1rem;
+    margin-right: 0.24rem;
+    float: left;
+}
+.shipin-bottom1 img{
+    width: 3.1rem;
+	height: 1.94rem;
+}
+.shipin-bottom2{
+    margin-top: 0.1rem;
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.9;
+    line-height: 0.3rem;
+}
+.shipin-bottom3{
+    margin-top: 0.06rem;
+    font-size: 0.2rem;
+    color: #000000;
+    opacity: 0.4;
+    line-height: 0.2rem;
+}
+.shipin-bottom4{
+    margin-top: 0.2rem;
+    font-size: 0.24rem;
+	line-height: 0.24rem;
+	letter-spacing: 0px;
+	color: #ff3931;
+    opacity: 0.3;
+    height: 0.26rem;
+}
+.shipin-bottom5{
+    font-size: 0.24rem;
+	line-height: 0.36rem;
+	color: #ff3931;
+	opacity: 0.9;
+}
+.shipin-bottom5 span{
+    font-size: 0.36rem;
+	color: #ff3931;
+	opacity: 0.9;
+}
+.shipin-bottom6{
+    margin-top: 0.26rem;
+    font-size: 0.18rem;
+	line-height: 0.18rem;
+	color: #000000;
+	opacity: 0.4;
+}
+.shipin-bottom7{
+    width: 0.42rem;
+    height: 1.18rem;
+    background-color: #ff3931;
+    font-size: 0.24rem;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0.45rem;
+    text-align: center;
+    line-height: 0.26rem;
+    padding-top: 0.26rem;
+    box-sizing: border-box;
+}
+.shipin-bottom8{
+    width: 0;
+    height: 0;
+    border: 0.22rem solid #ffffff;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    bottom: 1.1rem;
+    right: 0.44rem;
+}
+.shipin-bottom9{
+    width: 0;
+    height: 0;
+    border: 0.4rem solid #ff5824;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: absolute;
+    top: 0;
+    right:0;
+}
+.shipin-bottom p{
+    font-size: 0.24rem;
+    color: rgba(255,255,255,0.9);
+    line-height: 0.24rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.06rem;
+    z-index: 2;
+}
+.zuihou{
+    width: 100%;
+    height: 0.8rem;
+    position: relative;
+}
+.zuihouxian{
+    width: 100%;
+    height: 0.38rem;
+    border-bottom: 0.02rem solid #ff3333;
+    opacity: 0.3;
+}
+.zuihouzi{
+    width: 1.4rem;
+    height: 0.2rem;
+    font-size: 0.2rem;
+    background-color: #fefefe;
+    color: #ff3931;
+    opacity: 0.9;
+    line-height: 0.2rem;
+    text-align: center;
+    padding: 0 0.56rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -0.1rem;
+    margin-left: -1.26rem;
+}
+footer{
+    width: 100%;
+    height: 0.97rem;
+    background-color: #fff;
+    border-top: solid 0.01rem #d8d8d8;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    position: fixed;
+    bottom: 0;
+}
+footer a{
+    display: block;
+    width: 20%;
+    height: 0.7rem;
+    text-align: center;
+}
+footer .iconfont{
+    font-size: 0.44rem;
+    color:rgba(0, 0, 0, 0.4);
+}
+footer div{
+    font-size: 0.18rem;
+    color:rgba(0, 0, 0, 0.4);
+}
+footer .shouye{
+    color:#ff5626;
+}
+footer .icon-shouyeshouye{
+    color:#ff5626;
+}
